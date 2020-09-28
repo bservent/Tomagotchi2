@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1599766276214-46e0152236d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80);
+    font-family: 'Roboto Mono', monospace;
+    opacity: .8;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    position: relative;
+}
+
+h3 {
+    font-size: 24px;
+}
+ 
+button {
+    border-radius: 20px;
+    font-size: 18px;
+    color: black;
+    border: 2px solid black;
+}
+
+#start-button {
+    margin-left: 42%;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    position: absolute;
+    font-size: 24px;
+  }
+
+#timer {
+    display: none;
+    position: absolute;
+    top: 87%;
+    left: 83%;
+    color: white;
+    font-size: 24px;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+#age {
+    display: none;
+    position: absolute;
+    top: 83%;
+    left: 92%;
+    font-size: 20px;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+
+#tomagotchi {
+    display: none;
+    position: absolute;
+    top: 79%;
+    left: 2%;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+.block {
+    position: absolute;
+    display: none;
+    right: 38.5%;
+    top: 30%;
+    max-width: 350px;
+    animation: fadeInDown;
+    animation-duration: 3s; 
+    border: 5px solid black; 
+}
+
+#zen-mode {
+    display: none;
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+

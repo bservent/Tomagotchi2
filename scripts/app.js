@@ -73,7 +73,7 @@ $('#start-button').on('click', function(){
 
  //---Turn start button off after it has been clicked once
 
- $('start-button').off('click');
+ $('#start-button').off('click');
  
 });
 
@@ -81,24 +81,24 @@ $('#start-button').on('click', function(){
 
 $('#metric-hunger').on('click', function(){
       zenBlock.decrementHunger();
-      prompt('Thank you for feeding!');
+      alert('Thank you for feeding!');
     $('#metric-hunger').text(`Hunger: ${zenBlock.hunger}`);
 });
 
 $('#metric-sleepiness').on('click', function(){
     zenBlock.decrementSleepiness();
-    prompt('I\'m going to just sleep this off.');
+    alert('I\'m going to just sleep this off.');
   $('#metric-sleepiness').text(`Sleepiness: ${zenBlock.sleepiness}`);
 });
 
 $('#metric-play').on('click', function(){
     zenBlock.decrementPlay();
-    prompt('Yay! Play time!');
+    alert('Yay! Play time!');
   $('#metric-play').text(`Play: ${zenBlock.play}`);
 });
 
 $('#zen-mode').on('click', function(){
-    prompt('Meditate with me? Let\'s focus on the block in the center of the screen. Maybe we can notice our breath as well? Click ok to begin one-minute of Zen-Mode!');
+    alert('Meditate with me? Let\'s focus on the block in the center of the screen. Maybe we can notice our breath as well? Click ok to begin one-minute of Zen-Mode!');
     zenBlock.changeBackColor();
 });
 
@@ -186,7 +186,8 @@ class Tomagotchi extends Square {
     }
     nameTomagotchi(promptName) {
         //---Intro to game
-        this.name = prompt("Welcome to ZenBlock Tomagotchi! To keep your ZenBlock alive make sure to click the metric buttons in the lower left corner. The buttons will go up one point for every minute! If any of the buttons reaches to 10 your ZenBlock will die. So the more you interact with your ZenBlock the greater the chance you will keep it alive! Some features of this game include your ZenBlock morphing when the timer reaches 0. And if you are looking for a moment of meditation click on the Zen-Mode in the upper right corner of your screen. To proceed please type a name for your ZenBlock Tomagotchi below and click ok.")
+        this.name = prompt("Welcome to ZenBlock Tomagotchi! To keep your ZenBlock alive make sure to click the metric buttons in the lower left corner. The buttons will go up one point for every minute! If any of the buttons reaches to 10 your ZenBlock will die. So the more you interact with your ZenBlock the greater the chance you will keep it alive! Some features of this game include your ZenBlock morphing when the timer reaches 0. Also check out ZenMode! To proceed please type a name for your ZenBlock Tomagotchi below and click ok.", "ZenBlock")
+        return this.name
     }
     animationTomagotchi() {
         const randomIndex = Math.floor(Math.random() * this.animations.length);
@@ -238,7 +239,7 @@ class Tomagotchi extends Square {
     } 
     incrementDeath() {
         if (this.hunger === 10 || this.sleepiness === 10 || this.meditation === 10|| this.play === 10) {
-            prompt(`${this.name} HAS DIED! PLEASE GO MEDITATE AND TRY AGAIN!`)
+            alert(`${this.name} HAS DIED! PLEASE GO MEDITATE AND TRY AGAIN!`)
         } 
     }
 }; 

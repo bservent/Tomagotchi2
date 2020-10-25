@@ -33,6 +33,7 @@ Still working out some bugs/still wanting to add too:
 *I would like Zen-Mode to be on and off with a click.
 *I would like the ZenBlock to interact with the user more and act more "AI".
 
-### Wireframe
+### Screenshots
+Landing Page with start button
+![Screen Shot 2020-10-25 at 2 38 08 PM](https://user-images.githubusercontent.com/69656339/97119902-9ee8d600-16d0-11eb-8747-408cdc183a35.png)
 
-![Wireframe](https://i.imgur.com/yuBF1xg.jpg)

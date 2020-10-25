@@ -38,7 +38,9 @@ let age = 1;
 
 $('#start-button').on('click', function(){
 
- zenBlock.nameTomagotchi();
+ /* zenBlock.nameTomagotchi(); */
+ zenBlock.nameTomagotchi()
+ if (!zenBlock.name) return;
 
  zenBlock.animationTomagotchi();
 

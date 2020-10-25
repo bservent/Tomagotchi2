@@ -1,4 +1,4 @@
-# Project #0: ZenBlock Tomagotchi
+# ZenBlock Tomagotchi
 
 ### Why Play?
 

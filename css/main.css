@@ -93,4 +93,57 @@ button {
     animation-duration: 3s;
 }
 
+/* Media Quieries */
 
+@media screen and (max-width: 700px) {
+    body {
+        background-size: auto;
+    }
+
+    h1 {
+        font-size: 160%;
+        position: relative;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    #start-button {
+        top: 7%;
+        margin-left: 28%;
+        font-size: 14px;
+      }
+
+    #timer {
+        font-size: 14px;
+        margin-left: -82%;
+        top: 83%;
+    }
+
+    #age {
+        margin-left: -90%;
+        top: 80%;
+        font-size: 14px;
+    }
+
+    .block {
+        min-width: 100%;
+        max-width: 100%;
+        padding-left: 37%;
+    }
+
+    #tomagotchi {
+        top: 70%;
+    }
+
+    #zen-mode {
+       top: 75%;
+       right: 77%;
+    }
+    
+}

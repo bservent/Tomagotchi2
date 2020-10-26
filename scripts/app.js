@@ -100,7 +100,7 @@ $('#metric-play').on('click', function(){
 });
 
 $('#zen-mode').on('click', function(){
-    alert('Meditate with me? Let\'s focus on the block in the center of the screen. Maybe we can notice our breath as well? Click ok to begin one-minute of Zen-Mode!');
+    alert('Meditate with me? Let\'s focus on the block in the center of the screen. Maybe we can notice our breath as well?');
     zenBlock.changeBackColor();
 });
 

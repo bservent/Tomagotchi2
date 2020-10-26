@@ -1,4 +1,4 @@
-# Project #0: ZenBlock Tomagotchi
+# ZenBlock Tomagotchi
 
 ### Why Play?
 
@@ -23,16 +23,11 @@ Jquery
 Google Fonts
 Unplash
 
-### Unsolved Problems
 
-Still working out some bugs/still wanting to add too:
-*Clicking the start button twice makes the timer start moving faster than one second per decrement
-*Some of the features seem to not be "fixed" onto the page. I started working on this problem and seemily fell into deeper problems so I left it alone for now. 
-*I want to add animation to the metric button clicks that would make the ZenBlock move in some way.
-*I would like to style the prompts/make them more user friendly.
-*I would like Zen-Mode to be on and off with a click.
-*I would like the ZenBlock to interact with the user more and act more "AI".
+### Screenshots
 
-### Wireframe
+Landing Page with start button
+![Screen Shot 2020-10-25 at 2 38 08 PM](https://user-images.githubusercontent.com/69656339/97119902-9ee8d600-16d0-11eb-8747-408cdc183a35.png)
 
-![Wireframe](https://i.imgur.com/yuBF1xg.jpg)
+Play screen with metrics, ZenBlock animation, and Zen-mode button
+![Screen Shot 2020-10-25 at 2 38 35 PM](https://user-images.githubusercontent.com/69656339/97119961-0737b780-16d1-11eb-9892-6a2cef3c7b38.png)
